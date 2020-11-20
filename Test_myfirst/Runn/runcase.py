@@ -1,11 +1,11 @@
-import time
+﻿import time
 import unittest
 import HTMLTestRunnerNew
-# import sys
-# import os
-# curPath = os.path.abspath(os.path.dirname(r'C:\Users\Administrator\PycharmProjects\autosuyuansys\common\majorfunctionfwm.py'))
-# rootPath = os.path.split(curPath)[0]
-# sys.path.append(rootPath)
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(r'C:\Users\Administrator\PycharmProjects\autosuyuansys\common\majorfunctionfwm.py'))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 def run_sc():
    reportlj="../report"
